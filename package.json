@@ -1,5 +1,5 @@
 {
-  "name": "serverlearing",
+  "name": "PersonalPortfolio",
   "version": "1.0.0",
   "main": "learn2.js",
   "scripts": {
@@ -8,11 +8,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "all": "^0.0.0",
     "body-parser": "^1.20.2",
     "mongo": "^0.1.0",
     "mongodb": "^6.5.0",
     "mongoose": "^8.2.3"
   },
-  "devDependencies": {},
   "description": ""
 }

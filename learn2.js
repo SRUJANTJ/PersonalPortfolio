@@ -3,7 +3,7 @@ const http = require('http')
 const express = require('express')
 const bodyparser = require('body-parser')
 const app = express()
-const port = 8000
+const port = 3000
 const MongoClient = require('mongodb').MongoClient;
 const mongoose = require('mongoose');
 
@@ -78,6 +78,6 @@ insertData(data);
 
 app.listen(port, 'localhost', () => {
 
-    console.log(`http://localhost:8000/ port is  ${port}`)
+    console.log(`http://localhost:3000/ port is  ${port}`)
 
 })
