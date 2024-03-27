@@ -4,7 +4,7 @@
   "main": "learn2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-        "build": "your-build-script-here"
+        "build": "install all"
 
   },
   "author": "",
