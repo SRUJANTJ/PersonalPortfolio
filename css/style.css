@@ -1,0 +1,256 @@
+::-webkit-scrollbar{
+    background: #2a1f327a;    
+}
+::-webkit-scrollbar-thumb{
+    background: #3b2020;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body{
+    background: #282443;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: #27162e;
+    z-index: 99999;
+}
+section.perprofile {
+    margin-top: 170px;
+}
+#top {
+    height: 100vh;
+}
+
+#bottom {
+    height: 200vh;
+    margin-top: 52rem;
+
+}
+/* hr {
+    width: 100%;
+} */
+#text-container {
+    color: white;
+    font-size: 57px;
+    margin: 90px;
+    position: absolute;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+ li {
+    margin: 0 12px;
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.name {
+    color: whitesmoke;
+    font-size: 70px;
+    margin: 10px;
+}
+.profile {
+    /* float: right; */
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
+.profile img{
+    border-radius: 100px;
+
+}
+.profile-text{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+line-height: 3;
+color: white;
+font-size: 30px;
+}
+.servece-text{
+    display: flex;
+    justify-content: center;
+line-height: 3;
+color: white;
+font-size: 40px;
+}
+.Skills img {
+    height: 10rem;
+    margin: -3px;
+    padding: 30px;
+}
+section.Skills img {
+    position: relative; /* Enable positioning of child elements */
+}
+
+
+.Skills{
+    /* margin-top: 20%; */
+    position: relative;
+    top: 262px;
+}
+.skill-text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 40px;
+    
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+.about-txt{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 40px;
+}
+.about-detail {
+    color: white;
+    font-size: 40px;
+    margin: 16px;
+}
+.formfree{
+    color: red;
+    font-size: 40px;
+}
+.form-free {
+ width: -webkit-fill-available;
+}
+.web-ser {
+    text-align: center;
+    color: #f7f5f5;
+    font-size: 40px;
+    cursor: pointer; /* Add cursor pointer for better UX */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    margin: 40px;
+}
+
+.webdev {
+    display: none;
+    position: absolute;
+    background-color: #110e3ee6;
+    min-width: 120px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 15%;
+    width: 100%;
+    text-align: center;
+    color: wheat;
+transition: transform ease-in-out 0.5s;
+}
+
+.dropdown:hover .webdev{
+display: block ;  
+  
+}
+.webdev span {
+    display: block;
+    padding: 5px 10px;
+    line-height: 1.9;
+  }
+  .customerquery {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.customerquery input[type="text"],
+.customerquery input[type="email"],
+.customerquery input[type="number"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.customerquery input[type="text"]:focus,
+.customerquery input[type="email"]:focus,
+.customerquery input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.customerquery button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.customerquery button:hover {
+    background-color: #0056b3;
+}
+label {
+    color: white;
+    font-size: 30px;
+}
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .name {
+        font-size: 40px;
+    }
+
+    .profile {
+        margin-left: 0;
+        position: relative;
+        top: 16rem;
+    }
+
+    .profile-text {
+        margin-left: 0;
+        position: relative;
+        top: 16rem;
+    }
+    #text-container{
+        font-size: 37px;
+    }
+    .skill-text {
+        font-size: 30px;
+    }
+
+    .servece-text {
+        font-size: 30px;
+    }
+
+    .about-txt {
+        font-size: 30px;
+    }
+
+    .about-detail {
+        font-size: 30px;
+    }
+
+    .formfree {
+        font-size: 30px;
+    }
+}
